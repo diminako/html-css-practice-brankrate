@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: grey;
+    box-sizing: border-box;
+}
+
+.nav {
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    z-index: 20;
+}
+
+.nav-brand a {
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    display: flex;
+    justify-self: center;
+}
+
+.nav-link-ul {
+    display: flex;
+
+    list-style: none;
+}
+
+.nav-link-ul li {
+    padding: 10px;
+
+}
+
+.nav-link-ul li:hover {
+    background-color: antiquewhite;
+    height: 100%;
+    cursor: pointer;
+}
+
+.nav-authentication-group {
+    margin-right: 10px;
+    display: flex;
+    list-style: none;
+}
+
+
+.nav-authentication-group button {
+    cursor: pointer;
+}
+
+
+
+
+
